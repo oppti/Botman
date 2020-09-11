@@ -73,7 +73,7 @@ $ yarn install
 
 ## 👤 Author
 * **GitHub: [@Opportunity](https://github.com/PF-Henrique)**
-* **LinkedIn: [@Opportunity technology](https://www.linkedin.com/in/pedro-ferreira-148503b8/)**
+* **LinkedIn: [@Opportunity Technology](https://www.linkedin.com/in/pedro-ferreira-148503b8/)**
 
 ## 🤝 Contributing
 There are many forms to contribute with the project, first of all you can give this github repo a Star.
@@ -104,7 +104,7 @@ Then send a Pull Request that will be analyzed and approved if it helps with the
 ---
 ## 🐛 Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [ProductHunt](https://github.com/PF-Henrique/Starter-Rocketseat/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Bot-PreVendas](https://github.com/oppti/Bot-PreVendas/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 
 ## 💓 Support me
