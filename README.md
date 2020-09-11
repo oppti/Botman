@@ -1,8 +1,8 @@
 <h1 align="center">
-    <img alt="proffy-landing" src="" />
+    <img src="" />
 </h1>
 
-<h1 align='center'>JSHunt - Starter da Rocketseat</h1>
+<h1 align='center'>Webex Bot Pré-Vendas</h1>
 
 <p align="center">
   <a href="#-about-project">ℹ️ About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -115,7 +115,7 @@ Give a ⭐️ if this project helped you!
 ---
 
 ## ✨ Me
-<p align="center">
+
 <a href="https://github.com/oppti">
   <img src="https://avatars2.githubusercontent.com/u/56740481?s=400&u=cea6412011266f7809f4958cb369536956490a67&v=4" width= "50px;" height= "50px;" alt="Avatar"/>
   <br />
@@ -126,7 +126,6 @@ Give a ⭐️ if this project helped you!
 </sub>
 </a> 
 <a href="<a href="https://github.com/oppt/" title="Opportunity">🚀:octocat:</a>
-</p>
 
 <br />
 
