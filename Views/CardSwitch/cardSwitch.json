@@ -1,0 +1,259 @@
+{
+    "type": "AdaptiveCard",
+    "body": [{
+            "type": "ColumnSet",
+            "columns": [{
+                "type": "Column",
+                "width": "stretch",
+                "items": [{
+                    "type": "TextBlock",
+                    "text": "Switch Selector",
+                    "color": "Accent",
+                    "size": "Large"
+                }]
+            }]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [{
+                "type": "Column",
+                "items": [{
+                    "type": "TextBlock",
+                    "text": "Selecione uma ou mais categorias:",
+                    "color": "Light"
+                }],
+                "width": "auto"
+            }]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [{
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                            "type": "Input.Toggle",
+                            "title": "Enterprise",
+                            "value": "false",
+                            "id": "enterprise",
+                            "wrap": false
+                        },
+                        {
+                            "type": "Input.Toggle",
+                            "title": "Cloud Managed",
+                            "value": "false",
+                            "spacing": "None",
+                            "id": "cloud",
+                            "wrap": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                        "type": "Input.Toggle",
+                        "title": "Small Business",
+                        "value": "false",
+                        "id": "small",
+                        "wrap": false
+                    }]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [{
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                            "type": "TextBlock",
+                            "text": "Quantidade de portas UTP",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "Input.Number",
+                            "id": "qntutp",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Quantidade de portas SFP",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "choices": [{
+                                    "title": " ",
+                                    "value": "vazio"
+                                },
+                                {
+                                    "title": "2",
+                                    "value": "2"
+                                },
+                                {
+                                    "title": "4",
+                                    "value": "4"
+                                },
+                                {
+                                    "title": "mais do que 4",
+                                    "value": "5"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "id": "sfpqnt"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                            "type": "TextBlock",
+                            "text": "Velocidade das portas UTP",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "choices": [{
+                                    "title": " ",
+                                    "value": "vazio"
+                                },
+                                {
+                                    "title": "1",
+                                    "value": "1"
+                                },
+                                {
+                                    "title": "10",
+                                    "value": "10"
+                                },
+                                {
+                                    "title": "25",
+                                    "value": "25"
+                                },
+                                {
+                                    "title": "40",
+                                    "value": "40"
+                                },
+                                {
+                                    "title": "100",
+                                    "value": "100"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "id": "velutp"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Velocidade das portas SFP",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "choices": [{
+                                    "title": " ",
+                                    "value": "vazio"
+                                },
+                                {
+                                    "title": "1 Gb",
+                                    "value": "1"
+                                },
+                                {
+                                    "title": "10 Gb",
+                                    "value": "10"
+                                },
+                                {
+                                    "title": "25 Gb",
+                                    "value": "25"
+                                },
+                                {
+                                    "title": "40 Gb",
+                                    "value": "40"
+                                },
+                                {
+                                    "title": "100 Gb",
+                                    "value": "100"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "id": "velsfp"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [{
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                            "type": "Input.Toggle",
+                            "title": "PoE",
+                            "value": "false",
+                            "id": "poe",
+                            "wrap": false
+                        },
+                        {
+                            "type": "Input.Toggle",
+                            "title": "Roteamento (Layer 3)",
+                            "value": "false",
+                            "id": "routing",
+                            "spacing": "None",
+                            "wrap": false
+                        },
+                        {
+                            "type": "Input.Toggle",
+                            "title": "mGig",
+                            "value": "false",
+                            "id": "mgig",
+                            "spacing": "None",
+                            "wrap": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [{
+                            "type": "Input.Toggle",
+                            "title": "Empilhável",
+                            "value": "false",
+                            "id": "emp",
+                            "wrap": false
+                        },
+                        {
+                            "type": "Input.Toggle",
+                            "title": "Fonte redundante",
+                            "value": "false",
+                            "id": "power",
+                            "spacing": "None",
+                            "wrap": false
+                        }
+                    ]
+                }
+            ],
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [{
+                "type": "Action.Submit",
+                "title": "Enviar",
+                "id": "submit"
+            }],
+            "spacing": "None"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Precisa de ajuda? Entre em contato com o [suporte](mailto:suporte@oppti.com.br?subject=botman%20Bot).",
+            "size": "Small",
+            "spacing": "Large",
+            "color": "Light",
+            "weight": "Lighter"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}
