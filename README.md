@@ -24,7 +24,7 @@
 
 # 🚀 Welcome to Producthunt
 
-Application developed in the **[Starter / ReactJS Course](https://rocketseat.com.br/starter)** by **[Rocketseat](https://rocketseat.com.br/)**.
+Application developed.
 
 ## Descrição do projeto :star:
 
