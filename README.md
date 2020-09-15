@@ -59,9 +59,13 @@ Make sure you have installed all of the following prerequisites on your machine:
 ## 🔧 Install
 ```sh
 $ https://github.com/oppti/Bot-PreVendas.git
-$ cd api/
+$ cd Bot-PreVendas/
 $ npm install -g yarn
 $ yarn install
+
+our
+
+$ npm install
 ```
 
 ### Production Environment
