@@ -28,7 +28,7 @@ Application developed.
 
 ## Descrição do projeto :star:
 
-Uma solução de chaBOT contruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
+Uma solução de chaBOT cosntruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
 O que antes era necessario a consulta acessar a documentação do DataSheat, agora sera possivel pelo chat do webex Teams, commmo mostra a demontração abaixo. [Cisco DevNet](https://developer.cisco.com/).
 
 
