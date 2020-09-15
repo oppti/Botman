@@ -28,11 +28,8 @@ Application developed.
 
 ## Descrição do projeto :star:
 
-Uma plataforma desenvolvida através do **Starter** da [Rocketseat](https://www.rocketseat.com.br).
-Que tem o intuito de listar os repositórios de alguns frameworks.
-A ideia por trás da plataforma é mostrar os conceitos básicos de NodeJS, ReactJS e React Native.
-
-It consists of a frontend interface to expose the API built in the [huntapi project](https://github.com/PF-Henrique/Starter-Rocketseat/tree/master/api), displaying the digital products stored in the Mongo database.
+Uma solução de chaBOT contruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
+O que antes era necessario a consulta acessar a documentação do DataSheat, agora sera possivel pelo chat do webex Teams, commmo mostra a demontração abaixo. [Cisco DevNet](https://developer.cisco.com/).
 
 
 ## Tecnologias utilizadas 🚀
@@ -53,7 +50,7 @@ Make sure you have installed all of the following prerequisites on your machine:
 * **[Node.js](https://nodejs.org/en/download/)** with npm package manager.
 * **[Docker](https://nodejs.org/en/download/)** with npm package manager.
 * **[MySQL](https://nodejs.org/en/download/)** with npm package manager.
-* **[webex Bot](https://nodejs.org/en/download/)** with npm package manager.
+* **[webex BotFramework](https://nodejs.org/en/download/)** with npm package manager.
 * **[webex Teams](https://nodejs.org/en/download/)** with npm package manager.
 * **[Vs-Code](https://nodejs.org/en/download/)** with npm package manager.
 * **[Ngrok](https://nodejs.org/en/download/)** with npm package manager.
@@ -70,10 +67,6 @@ $ yarn install
 ### Production Environment
 * [Webex Bot-framework documentation](https://)
 * [Documentation assistant](https://)
-
-## 👤 Author
-* **GitHub: [@Opportunity](https://github.com/PF-Henrique)**
-* **LinkedIn: [@Opportunity Technology](https://www.linkedin.com/in/pedro-ferreira-148503b8/)**
 
 ## 🤝 Contributing
 There are many forms to contribute with the project, first of all you can give this github repo a Star.
@@ -114,7 +107,7 @@ Give a ⭐️ if this project helped you!
 #### This project is [MIT](LICENSE) licensed. 
 ---
 
-## ✨ Me
+## 👤 Author
 
 <a href="https://github.com/oppti">
   <img src="https://avatars2.githubusercontent.com/u/56740481?s=400&u=cea6412011266f7809f4958cb369536956490a67&v=4" width= "50px;" height= "50px;" alt="Avatar"/>
@@ -125,8 +118,8 @@ Give a ⭐️ if this project helped you!
   </b>
 </sub>
 </a> 
-<a href="<a href="https://github.com/oppt/" title="Opportunity">🚀:octocat:</a>
+<a href="<a href="https://github.com/oppt/" title="Opportunity"></a>
 
 <br />
 
-Made with 💙 by Opportunity 👋 [Talk to me!](https://www.linkedin.com/in/pedro-ferreira-148503b8/)
+Made with 💙 by Opportunity 👋 [Talk to me!](https://www.linkedin.com/in/opportunity-tecnologia-6735a6167/)
