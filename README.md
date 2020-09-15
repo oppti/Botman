@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="" />
+    <img src="https://github.com/oppti/Bot-PreVendas/blob/master/.Docs/assets/bot-icon-2.png" width= "300px;" height= "300px;" />
 </h1>
 
 <h1 align='center'>Webex Bot Pré-Vendas</h1>
