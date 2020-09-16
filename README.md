@@ -56,7 +56,7 @@ Make sure you have installed all of the following prerequisites on your machine:
 * **[Ngrok](https://nodejs.org/en/download/)** with npm package manager.
 
 
-## 🔧 Get Started locale
+## 🔧 Get Started local
 ```sh
 $ https://github.com/oppti/Bot-PreVendas.git
 $ cd Bot-PreVendas/
@@ -67,7 +67,7 @@ our
 
 $ npm install
 ```
-## 🔧 Get Started ngrok locale our docker
+## 🔧 Get Started ngrok local our docker
 ```sh
 # access to ngok and download "https://ngrok.com/"
 $ ngrok http 3000
