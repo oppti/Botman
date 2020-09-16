@@ -56,7 +56,7 @@ Make sure you have installed all of the following prerequisites on your machine:
 * **[Ngrok](https://nodejs.org/en/download/)** with npm package manager.
 
 
-## 🔧 Install
+## 🔧 Get Started locale
 ```sh
 $ https://github.com/oppti/Bot-PreVendas.git
 $ cd Bot-PreVendas/
@@ -66,6 +66,38 @@ $ yarn install
 our
 
 $ npm install
+```
+## 🔧 Get Started ngrok locale our docker
+```sh
+# access to ngok and download "https://ngrok.com/"
+$ ngrok http 3000
+# paste url for ngrok.io in config.json
+```
+
+```sh
+# install Docker in your machine
+run -d -p 4040:4040 --restart always --name ngrok wernight/ngrok ngrok http 192.168.0.72:8081
+# follow the documentation dockerHub.com for install wernight/ngrok
+```
+## 🔧 Get Started mysql
+```sh
+docker run -p 3001:3001 -p 3306:3306 --restart always --name MYSQL-BOT -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+# access bash conatiner mysql our use ORM Database.
+docker exec -it <ID ou name container> bash
+```
+
+## 🔧 Get Started node
+```sh
+$ docker build -t opportunity/node-botprevendas .
+$ docker run --name bot-prevendas -p 3000:3000 -d opportunity/node-botprevendas
+```
+
+## 🔧 Get Started Aplication Bot
+```sh
+# use debug vs code our npm start
+$ npm start
+our
+$ yarn start
 ```
 
 ### Production Environment
