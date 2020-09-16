@@ -99,6 +99,15 @@ $ npm start
 our
 $ yarn start
 ```
+<h4 align="center">
+     For more instructions follow steps description in README.md
+</h4>
+
+<p align="center">
+  <a href="https://github.com/oppti/Bot-PreVendas/blob/master/.Docs/Comandos.MySQL.md">ℹ️ MYSQL</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/oppti/Bot-PreVendas/blob/master/.Docs/Comandos.docker.md">ℹ️ DOCKER</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/oppti/Bot-PreVendas/blob/master/.Docs/Comandos.git.md">ℹ️ GIT</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
 ### Production Environment
 * [Webex Bot-framework documentation](https://)
