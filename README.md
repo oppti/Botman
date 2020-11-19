@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/oppti/Bot-PreVendas/blob/master/.Docs/assets/bot-icon-2.png" width= "300px;" height= "300px;" />
+    <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/robot-microsoft.png" width= "300px;" height= "300px;" />
 </h1>
 
 <h1 align='center'>Webex Bot Pré-Vendas</h1>
@@ -18,87 +18,118 @@
 </h4>
 
 <p align="center">
-  <a href="https://github.com/oppti/Bot-PreVendas">💻 Acesse o Front-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/oppti/Botman">💻 Acesse o Front-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
-# 🚀 Welcome to Producthunt
+# 🚀 Welcome to CiscoDevNet.
 
 Application developed.
 
 ## Descrição do projeto :star:
 
-Uma solução de chaBOT cosntruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
-O que antes era necessario a consulta acessar a documentação do DataSheat, agora sera possivel pelo chat do webex Teams, commmo mostra a demontração abaixo. [Cisco DevNet](https://developer.cisco.com/).
-
+Uma solução de ChaBOT cosntruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
+Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a realizar consultas de contratos/licenças e modelos de equipamentos, pelo proprio webexTeams em um espaço privado ou compartilhado, basta convidar nosso querido **Botman** 🦇 Para ele entrar em ação, como mostra a demontração abaixo. [Cisco DevNet](https://developer.cisco.com/).
 
 ## Tecnologias utilizadas 🚀
 
 <ul>
-    <li><a href="https://nodejs.org/en/" target="_blank">Node</a></li>
+    <li><a href="https://nodejs.org/en/" target="_blank">Node js</a></li>
     <li><a href="#" target="_blank">webex Bot-Framework</a></li>
+    <li><a href="#" target="_blank">Python</a></li>
+    <li><a href="#" target="_blank">Selenium</a></li>
     <li><a href="#" target="_blank">MySQL</a></li>
     <li><a href="#" target="_blank">webex Teams</a></li>
 </ul>
 
 ## 🌎 Demonstration
-visualize the application, a demonstration <foto ou gif>
+visualize the application, a demonstration **/Switch**
+
+<h1 align="center">
+    <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150226.png" />
+</h1>
+
+## Return
+
+<h1 align="center">
+    <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150404.png" />
+</h1>
+
+visualize the application, a demonstration **/serial AAA12345678**
+
+<h1 align="center">
+    <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150044.png" />
+</h1>
+
 
 ## 🧰 Prerequisites
 Make sure you have installed all of the following prerequisites on your machine:
-* **[Git](https://git-scm.com/downloads)**;
+
 * **[Node.js](https://nodejs.org/en/download/)** with npm package manager.
-* **[Docker](https://nodejs.org/en/download/)** with npm package manager.
 * **[MySQL](https://nodejs.org/en/download/)** with npm package manager.
-* **[webex BotFramework](https://nodejs.org/en/download/)** with npm package manager.
-* **[webex Teams](https://nodejs.org/en/download/)** with npm package manager.
-* **[Vs-Code](https://nodejs.org/en/download/)** with npm package manager.
-* **[Ngrok](https://nodejs.org/en/download/)** with npm package manager.
+* **[Git](https://git-scm.com/downloads)**.
+* **[Docker](https://www.docker.com/)**.
+* **[webexTeamsBot](https://pypi.org/project/webexteamsbot/)**.
+* **[webex Teams](https://teams.webex.com/)**.
+* **[Vs-Code](https://code.visualstudio.com/download)**.
+* **[Ngrok](https://ngrok.com/download)**.
+* **[Selenium](https://medium.com/ananoterminal/install-selenium-on-windows-f4b6bc6747e4)**.
 
 
 ## 🔧 Get Started local
 ```sh
-$ https://github.com/oppti/Bot-PreVendas.git
-$ cd Bot-PreVendas/
-$ npm install -g yarn
-$ yarn install
-
-our
-
+$ clone our run wget https://github.com/oppti/Bot-PreVendas.git
+$ cd Botman/
+$ chmod +x stop.sh
+$ chmod +x start.sh
 $ npm install
+our
+$ start.sh
 ```
+
 ## 🔧 Get Started ngrok local our docker
 ```sh
 # access to ngok and download "https://ngrok.com/"
 $ ngrok http 3000
 # paste url for ngrok.io in config.json
 ```
+our 
 
 ```sh
 # install Docker in your machine
-run -d -p 4040:4040 --restart always --name ngrok wernight/ngrok ngrok http 192.168.0.72:8081
 # follow the documentation dockerHub.com for install wernight/ngrok
+run -d -p 4040:4040 --restart always --name ngrok wernight/ngrok ngrok http 192.168.0.72:8081
+# paste url for config.json "webhookUrl": "http://monitor.oppti.com.br:3000",
+
 ```
 ## 🔧 Get Started mysql
 ```sh
-docker run -p 3001:3001 -p 3306:3306 --restart always --name MYSQL-BOT -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+docker run -p 3001:3001 -p 3306:3306 --restart unless-stopped --name MYSQL-BOT -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 # access bash conatiner mysql our use ORM Database.
 docker exec -it <ID ou name container> bash
 ```
 
 ## 🔧 Get Started node
 ```sh
-$ docker build -t opportunity/node-botprevendas .
-$ docker run --name bot-prevendas -p 3000:3000 -d opportunity/node-botprevendas
+$ docker build -t opportunity/botman:latest -t opportunity/botman:2.0.0 .
+$ docker run -d --restart unless-stopped -p 3000:3000 --name botman opportunity/botman
 ```
 
-## 🔧 Get Started Aplication Bot
-```sh
-# use debug vs code our npm start
-$ npm start
-our
-$ yarn start
+## 🔧 Container it's running
 ```
+$ docker ps
+```
+
+## 🔧 Access container
+```
+$ docker exec -u root -it --workdir / <containerName> bash
+```
+
+## 🔧 Access logs
+```
+$ docker logs -f botman
+```
+
 <h4 align="center">
      For more instructions follow steps description in README.md
 </h4>
@@ -110,8 +141,7 @@ $ yarn start
 </p>
 
 ### Production Environment
-* [Webex Bot-framework documentation](https://)
-* [Documentation assistant](https://)
+* [Webex Bot-framework documentation](https://github.com/WebexSamples/webex-node-bot-framework)
 
 ## 🤝 Contributing
 There are many forms to contribute with the project, first of all you can give this github repo a Star.
