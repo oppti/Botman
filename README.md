@@ -26,12 +26,12 @@
 
 Application developed.
 
-## Descrição do projeto :star:
+## Description of project :star:
 
 Uma solução de ChaBOT cosntruida para o webex teams voltada para tornar o processo de consulta de produtos Cisco mais facil e automatizado.
 Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a realizar consultas de contratos/licenças e modelos de equipamentos, pelo proprio webexTeams em um espaço privado ou compartilhado, basta convidar nosso querido **Botman** 🦇 Para ele entrar em ação, como mostra a demontração abaixo. [Cisco DevNet](https://developer.cisco.com/).
 
-## Tecnologias utilizadas 🚀
+## Tecnologies utils 🚀
 
 <ul>
     <li><a href="https://nodejs.org/en/" target="_blank">Node js</a></li>
@@ -70,8 +70,8 @@ Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a real
 ## 🧰 Prerequisites
 Make sure you have installed all of the following prerequisites on your machine:
 
-* **[Node.js](https://nodejs.org/en/download/)** with npm package manager.
-* **[MySQL](https://nodejs.org/en/download/)** with npm package manager.
+* **[Node.js](https://nodejs.org/en/download/)**.
+* **[MySQL](https://nodejs.org/en/download/)**.
 * **[Git](https://git-scm.com/downloads)**.
 * **[Docker](https://www.docker.com/)**.
 * **[webexTeamsBot](https://pypi.org/project/webexteamsbot/)**.
