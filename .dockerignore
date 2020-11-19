@@ -1,0 +1,11 @@
+.git
+.gitignore
+dockerfile
+README.md
+docker-compose.yml
+.drone.yml
+LICENSE
+.vscode
+launch.json
+*.save
+*.sh
