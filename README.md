@@ -49,7 +49,7 @@ Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a real
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150226.png" />
 </h1>
 
-## Return
+## Result
 
 <h1 align="center">
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150404.png" />
@@ -61,7 +61,7 @@ Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a real
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150044.png" />
 </h1>
 
-## Return
+## Result
 
 <h1 align="center">
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150123.png" />
