@@ -14,7 +14,7 @@
 </p>
 
 <h4 align="center">
-     Siga os passos descritos nos README.md de cada diretorio
+     Siga os passos descritos no README.md
 </h4>
 
 <p align="center">
@@ -43,7 +43,7 @@ Trata-se de uma solução com a finalidade de aulixiar a equipe de vendas a real
 </ul>
 
 ## 🌎 Demonstration
-visualize the application, a demonstration **/Switch**
+### visualize the application, a demonstration **/Switch**
 
 <h1 align="center">
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150226.png" />
@@ -55,12 +55,17 @@ visualize the application, a demonstration **/Switch**
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150404.png" />
 </h1>
 
-visualize the application, a demonstration **/serial AAA12345678**
+### visualize the application, a demonstration **/serial AAA12345678**
 
 <h1 align="center">
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150044.png" />
 </h1>
 
+## Return
+
+<h1 align="center">
+    <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/Screenshot%202020-11-19%20150123.png" />
+</h1>
 
 ## 🧰 Prerequisites
 Make sure you have installed all of the following prerequisites on your machine:
