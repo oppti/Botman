@@ -2,7 +2,7 @@
     <img src="https://github.com/oppti/Botman/blob/master/.Docs/assets/robot-microsoft.png" width= "300px;" height= "300px;" />
 </h1>
 
-<h1 align='center'>Webex Bot Pré-Vendas</h1>
+<h1 align='center'>Webex Botman</h1>
 
 <p align="center">
   <a href="#-about-project">ℹ️ About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
